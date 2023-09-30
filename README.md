@@ -14,20 +14,17 @@ The fundamental electromechanical components that compose our self-driving LEGO 
 
 - **Raspberry Pi**: Functioning as the computational powerhouse, the Raspberry Pi manages high-level tasks, acting as an intermediary between the LEGO EV3 Brick and our neural network for object detection.
 
-#### Mobility Management
+### Mobility Management
 Our mobility management revolves around the use of standard LEGO motors. These motors are renowned for their reliability and precision, enabling our self-driving LEGO car to achieve fluid and controlled movement. The motors are meticulously integrated with the vehicle's wheels to ensure agile and stable navigation.
 
-#### Power and Sense Management
+### Power and Sense Management
 The power and sense management aspects are crucial for the smooth operation of our self-driving LEGO car.
 
-##### Power Source
+### Power Source
 The primary power source for our vehicle is carefully selected to ensure uninterrupted operation during competition. We employ rechargeable batteries to power both the LEGO EV3 Brick and the Raspberry Pi. This choice provides the necessary endurance for prolonged competition rounds while maintaining consistent voltage levels for optimal performance.
 
-##### Sensor Array
-Our robot relies on a diverse array of sensors to navigate autonomously and avoid obstacles. These sensors include:
-
-- **Camera**: The onboard camera captures real-time images for object recognition and navigation.
-- **Distance Sensors**: Ultrasonic sensors provide precise distance measurements, serving as a crucial line of defense against collisions.
+### Camera
+The onboard camera captures real-time images for object recognition and navigation.
 
 ### Obstacle Management
 Our robot's ability to perceive and negotiate obstacles is a critical aspect of its performance. Here, we outline our strategy for obstacle management, including flow diagrams and pseudocode.
