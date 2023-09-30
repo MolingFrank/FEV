@@ -16,13 +16,11 @@ The robot consists of the following electromechanical components:
 
 3. **Motors and Wheels**: The robot is equipped with LEGO motors and wheels for movement control.
 
-4. **Sensors**:
-   - **Color Sensor**: Used for detecting red and green obstacles.
-   - **Ultrasonic Sensor**: Provides distance measurement to avoid collisions.
+4. **Sensor**:
    - **Camera**: Mounted on the Raspberry Pi for image capture and object recognition.
 
 ### Development Process
-1. **Building the LEGO Car**: We assembled the physical components of the LEGO car, ensuring that the sensors were appropriately positioned for effective detection.
+1. **Building the LEGO Car**: We assembled the physical components of the LEGO car, ensuring that the sensor was appropriately positioned for effective detection.
 
 2. **Installing Required Software**:
    - Set up Raspbian on the Raspberry Pi.
@@ -35,12 +33,9 @@ The robot consists of the following electromechanical components:
    - **LEGO EV3 Code**: Developed code to interface with the LEGO EV3 Brick, control motors, and read sensor data.
    - **Donkey Car Code**: Adapted the Donkey Car codebase to our LEGO car, integrating our TensorFlow model and defining control policies.
 
-4. **Mapping and Navigation**: We created a map of the competition area and implemented algorithms for path planning and obstacle avoidance.
-
-5. **Testing and Calibration**: Extensive testing was carried out to fine-tune the robot's behavior, sensor accuracy, and neural network performance.
+4. **Testing and Calibration**: Extensive testing was carried out to fine-tune the robot's behavior, sensor accuracy, and neural network performance.
 
 ### Compiling and Uploading the Code
-To compile and upload the code to the vehicle's controller, follow these steps:
 
 1. Clone the project repository to your Raspberry Pi.
    ```
