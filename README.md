@@ -1,5 +1,5 @@
-# Robotics Team - WRO Competition
-## Self-Driving LEGO Car
+# FEV Team - WRO Future Engineers Competition
+## Self-Driving Car
 
 ### Introduction
 Welcome to the README.md file for our robotics team's self-driving LEGO car developed for the World Robot Olympiad (WRO) Competition. In this document, we will provide an overview of the robot, its components, the development process, and how to compile and upload the code to the vehicle's controller.
