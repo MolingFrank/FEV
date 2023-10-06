@@ -19,11 +19,12 @@ OCT 4, 2023
 Team FEV USA
 Team Presentation
  
-Team Members:   Fengmo Guo 
- 
-      	         Evan Yu Girard-Sun Vinaya Ayinampudi
+Team Members:  
+ Fengmo Guo 
+ Evan Yu Girard-Sun 
+ Vinaya Ayinampudi
 
-Coach:          Fei Guo 
+Coach:  Fei Guo 
  
 
 
