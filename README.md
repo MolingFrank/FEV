@@ -21,11 +21,11 @@ Team Presentation
  
 Team Members:   Fengmo Guo 
  
-      	                    Evan Yu Girard-Sun
+      	         Evan Yu Girard-Sun
                       
-                              Vinaya Ayinampudi
+                Vinaya Ayinampudi
 
-Coach:                  Fei Guo 
+Coach:          Fei Guo 
  
 
 
