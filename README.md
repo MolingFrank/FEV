@@ -21,9 +21,7 @@ Team Presentation
  
 Team Members:   Fengmo Guo 
  
-      	         Evan Yu Girard-Sun
-                      
-                Vinaya Ayinampudi
+      	         Evan Yu Girard-Sun Vinaya Ayinampudi
 
 Coach:          Fei Guo 
  
