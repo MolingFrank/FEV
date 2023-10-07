@@ -1,4 +1,4 @@
-Report on A true autonomous vehicle solution
+Report on a true autonomous vehicle solution
 
 
 
@@ -96,7 +96,8 @@ Structural design of LEGO vehicles
 Please refer to the following four pictures for the design of the body structure.
 
  
-Figure 1
+![image](https://github.com/MolingFrank/FEV/assets/145865208/b50212dc-85cc-47c7-b011-ffa4ac93ee2c)
+
  
 Figure 2
 
