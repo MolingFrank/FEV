@@ -91,71 +91,11 @@ Lego Mindstorms EV3 is LEGO Education's programmable robot hardware, which is ve
 Technical ideas:
 Future Engineering is an autonomous driving competition that avoids obstacles at the venue. We designed to use the Raspberry Pi as avehicle for A-I operations. Under the operating system of Raspberry Pi's Linux OS, the python IDE integrates the runtime environment. Install Google's tensorflow. Install the lens on the Raspberry Pi. Start by running a program that records a video of a real vehicle moving and remote control data. The data is then fed to a CNN neural network, which uses machine learning methods to find connections between video images and remote control data. Then apply this model to the recognition of real lens photos. Let the AI give the vehicle's operating data. This data is then transmitted to a vehicle built with a LEGO EV3. Make LEGO cars self-driving. 
 
+All vehicle photos are shown in v-photos file.
 
-Structural design of LEGO vehicles
-Please refer to the following four pictures for the design of the body structure.
-
- 
-![image](https://github.com/MolingFrank/FEV/assets/145865208/b50212dc-85cc-47c7-b011-ffa4ac93ee2c)
-
- 
-Figure 2
-
- 
-Figure 3
-
- 
-Figure 4
-
-LEGO rear wheel power structure design
-Please note that the two LEGO motors are not differential-driven. Instead, standard vehicle shaft transmission is used.
- 
-Figure 5
-
-Structural design of steering gear
-The LEGO EV3 medium-sized motor moves the gears left and right.
-
-
- 
-Figure 6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Lego structure design for Raspberry Pi
-This is a very distinctive design, and since the Raspberry Pi itself cannot be connected to the Lego structure, we designed a Lego structure to tie the Raspberry Pi in the middle. The effect of this is that the structural parts on the outside of the Raspberry Pi can be easily connected to the LEGO parts.
- 
-Figure 7
-
-Before making AI imitate how humans operate remote-controlled cars, it is necessary to make the vehicles manipulable by humans. We use the Sony Playstation 4 Dual Shock 4 Controller as our vehicle remote.
-
- 
-Figure 8
 
 
 In order to display the vehicle data more accurately, we also designed a web server, which also runs on the Raspberry Pi. Each frame of the footage is transmitted in real time by this web server. In this way, the live view of the lens can be accessed through the web page.
-
-
-
-
-
-
-
-
-
-
-System communication design
 
  
 
@@ -168,16 +108,11 @@ The heart of our system is a single-board computer, specifically a Raspberry Pi 
 
 
 
-Photos of the Data We Captured
+Photos of the Data We Captured Are Shown In The scr File.
 
  
-
-
  
-Photos of the Data We Collected
- 
- 
-Schematic Diagram of the CNN (Convolutional Neural Network) Recognition and Judgment after Training
+Schematic Diagram of the CNN (Convolutional Neural Network) Recognition and Judgment after Training are shown in the schemes File.
 
  
  
@@ -219,31 +154,7 @@ Next, we package all of this data and hand it over to TensorFlow. Inside TensorF
 Finally, we transmit the data to our Lego robot via Bluetooth. The Lego robot is programmed using its proprietary language. It primarily serves to showcase the received data, controlling the motors to drive forward or turn left and right. This sums up the software portion of our project.
  
 
- 
-Python Code for Capturing Photos:
- 
 
- 
-
- 
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Code for the Lego Robot
- 
  
 Challenges we met: Throughout the development of this project, we encountered a series of challenges. First off, there was the issue of image resolution. If we chose to work with larger image resolutions, our machine computations slowed down significantly, resulting in training sessions that could take longer than 8 hours. To solve this, we downscaled the data and used a resolution of 160 by 120 pixels.
 
