@@ -46,7 +46,7 @@ Vinaya Ayinampudi，a tenth grader at Eastvale STEM Academy who enjoys playing v
 
  
 
-Summary Project A combination of half-AI and half-robot, a real AI autonomous driving robot. 
+Summary of our Project A combination of half-AI and half-robot, a real AI autonomous driving robot. 
 
 Technical solution design
 LEGO robot and car body structure design
