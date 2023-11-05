@@ -446,6 +446,7 @@ Here’s an overview of how the software operates: Python scripts manage the
 Raspberry Pi’s camera to take images and gather corresponding data. We also
 connect a joystick through Bluetooth, combining its input with the camera's
 images for storage.
+
 Subsequently, this data is collated and processed with TensorFlow, where
 we've constructed a Convolutional Neural Network (CNN) for the machine
 learning aspect. The model ingests a composite of video feeds, steering
@@ -453,6 +454,7 @@ inputs, and throttle data. These inputs traverse through an eleven-layer
 network, culminating in the generation of two types of outputs—steering and
 throttle commands. This sophisticated process yields our AI self-driving
 algorithm.
+
 The final step involves transferring these commands to our Lego robot using
 Bluetooth. The robot, programmed in its unique language, interprets the data
 to manipulate its motors, enabling it to drive, turn, and showcase the practical
@@ -470,6 +472,7 @@ work with larger image resolutions, our machine computations slowed down
 significantly, resulting in training sessions that could take longer than 8
 hours. To solve this, we downscaled the data and used a resolution of 160 by
 120 pixels.
+
 Next, we grappled with a problem of overly lengthy road models. To address
 this, we segmented a portion of the data model for training. Finally, we faced
 issues of software compatibility. For instance, we found that a model trained
@@ -495,6 +498,7 @@ LEGO EV3 is powered by a 10.5-volt proprietary lithium battery specific to
 LEGO, and the Raspberry Pi is powered by a 10,000 mAh portable power bank.
 The two systems communicate via Bluetooth, working in tandem to ensure stable
 vehicle operation.
+
 In terms of ground perception modules, our AI captures images with its camera and
 processes them using the CNN, which then compares them with a well-trained
 model to make accurate predictions. The decisions about steering and throttle are
@@ -510,15 +514,15 @@ an enhanced driving experience.
 Index
 
 Donkey car:https://www.donkeycar.com/
-Pi camera:https://picamera.readthedocs.io/en/
 
-release-1.13/index.html#
+Pi camera:https://picamera.readthedocs.io/en/release-1.13/index.html#
 
-Tornado webserver:https://tornado-
-zh.readthedocs.io/zh/latest/#
+Tornado webserver:https://tornado-zh.readthedocs.io/zh/latest/#
 
 Tensorflow:https://www.tensorflow.org
+
 Kersa:https://keras.io/about/
+
 Github:https://github.com/
 
 —-Thank You—-
