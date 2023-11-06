@@ -523,7 +523,7 @@ Tensorflow:https://www.tensorflow.org
 
 Kersa:https://keras.io/about/
 
-Our Youtube Channel: [https://www.youtube.com/@FEVTeam-WRO](url)
+Our Youtube Channel: https://www.youtube.com/@FEVTeam-WRO
 
 —-Thank You—-
 
